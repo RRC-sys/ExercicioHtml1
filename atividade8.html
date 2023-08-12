@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #5A638C;
+            overflow: hidden;
+        }
+
+        .background1 {
+            position: absolute;
+        }
+
+        .boxTop {
+            display: flex;
+            margin-bottom: .2vw;
+        }
+
+        .boxBottom {
+            display: flex;
+        }
+
+        .boxBottom .area {
+            height: 18vh;
+            border: 2px solid #FFF;
+            background-color: #5A638C;
+        }
+
+        .boxTop .area {
+            height: 80vh;
+            border: 2px solid #FFF;
+            background-color: #5A638C;
+        }
+
+        .boxTop .area:first-child, .boxBottom .area:first-child {
+            width: 90vw;
+            margin-right: .2vw;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .boxTop .area:last-of-type, .boxBottom .area:last-of-type {
+            width: 10.8vw;
+        }
+
+        .circulo {
+            width: 60vw;
+            height: 100%;
+            background-color: #646E96;
+            border-radius: 50% 0 0 50%;
+        }
+
+        .boxBottom .circulo {
+            border-radius: 100% 0 0 150px;
+        }
+
+        .background2 {
+            top: 50px;
+            width: 85vw;
+            left: 9vw;
+            position: relative;
+        }
+
+        .data hr{
+            height: 10px;
+            background-color: #FFF;
+        }
+
+        .data h1{
+            text-align: center;
+        }
+
+        img {
+            position: relative;
+            border: 2px solid #FFF;
+            width: 400px;
+            top: 80px;
+            left: 20px;
+        }
+
+        .tags {
+            position: relative;
+            top: -140px;
+            left: 50vw;
+            font-size: 30px;
+        }
+
+        .lineName {
+            position: relative;
+        }
+
+        .lineName hr {
+            background-color: #FFF;
+        }
+
+        .lineName hr:nth-child(1), .lineName hr:nth-child(2) {
+            height: 10px;
+            width: 30vw;
+        }
+
+        .lineName hr:nth-child(3) {
+            height: 8px;
+            width: 85vw;
+        }
+
+        .lineName hr:nth-child(4) {
+            height: 6px;
+            width: 85vw;
+        }
+
+        .lineName hr:nth-child(5) {
+            height: 4px;
+            width: 85vw;
+        }
+
+        .lineName hr:nth-child(6) {
+            height: 2px;
+            width: 85vw;
+        }
+
+        .lineName hr:last-of-type{
+            height: 1px;
+            width: 85vw;
+        }
+
+        .lineName p {
+            text-align: center;
+            color: #FFF;
+            font-size: 20px;
+        }
+
+        .next {
+            position: relative;
+            top: 30px;
+            left: 20px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background1">
+        <div class="boxTop">
+            <div class="area">
+                <div class="circulo"></div>
+            </div>
+            <div class="area"></div>
+        </div>
+        <div class="boxBottom">
+            <div class="area">
+                <div class="circulo"></div>
+            </div>
+            <div class="area"></div>
+        </div>
+    </div>
+    <div class="background2">
+        <div class="data">
+            <hr>
+            <h1>A CONSTRUÇÃO DO HTML</h1>
+            <hr>
+        </div>
+    </div>
+    <img src="./images/imagem.jpg" alt="Imagem Fada">
+    <div class="tags">
+        <font color="white">Exercício 2 de HTML</font>
+        <br>
+        <font color="red">Exercício 2 de HTML</font>
+        <br>
+        <font color="blue">Exercício 2 de HTML</font>
+        <br>
+        <font color="yellow">Exercício 2 de HTML</font>
+        <br>
+        <font color="grey">Exercício 2 de HTML</font>
+    </div>
+    <div class="lineName">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <p>Aluno: Rubio Rodrigo Costa</p>
+        <hr>
+    </div>
+    <a class="next" href="./atividade9.html">Atividade 9</a>
+</body>
+</html>
